@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/* Header */
+
+header {
+  background-color: white;
+  display: flex;
+  height: 60px;
+  padding-inline: 8px;
+  justify-content: space-evenly;
+  box-shadow: 0px 9px 18px -3px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  height: 100%;
+  width: 400px;
+}
+
+img {
+  margin-top: 8px;
+  width: 50%;
+}
+
+.nav-center {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 16px;
+
+}
+.nav-center div{
+  cursor: pointer;
+}
+
+.nav-right {
+  font-family: "Prompt", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 16px;
+  position: relative;
+}
+
+.noti-cart{
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 50%;
+  position: relative;
+  top: -40px;
+  right: -15px;
+}
+
+.line {
+  background-color: #aaaebb;
+  width: 1px;
+  height: 70%;
+  position: absolute;
+  bottom: 8px;
+  right: 120px;
+  box-shadow: 18px 5px 7px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* My Cart */
+.cart{
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 100px;
+}
+
+h1{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  position: relative;
+  top: -20px;
+}
+.list1 {
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  width: 500px;
+  height: 200px;
+  margin-bottom: 22px;
+  box-shadow: 0px 9px 18px -3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ggdoc{
+  color: white;
+  background-image: linear-gradient(#a7d1fe, #62a2f6);
+  border-radius: 10%;
+  width: 30%;
+  height: 70%;
+  padding: 25px 0px 0px 16px;
+  margin-left: 40px;
+  margin-right: 20px;
+  gap: 8px;
+}
+.ggdoc svg{
+  margin-right: 53px;
+  margin-bottom: 8px;
+}
+.ggdoc .item1{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 35px;
+}
+.ggdoc .item2{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.list1 .detail1{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+.list1 .detail2{
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.list1 .detail2 .dot1{
+  background-color: #00deb4;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+.list1 .detail2 .dot2{
+  background-color: #e4e4e4;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+.list1 .detail2 .dot3{
+  background-color: #e4e4e4;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+.list1 .detail2 select{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #808080;
+  border-color: #00deb4;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.list1 .detail3{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* ------------------------------------------------------- */
+
+.list2 {
+  background-color: white;
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  width: 500px;
+  height: 200px;
+  box-shadow: 0px 9px 18px -3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list2 .bin{
+  margin-left: 20px;
+}
+
+.ggslide{
+  color: white;
+  background-image: linear-gradient(#f5cf75, #e88659);
+  border-radius: 10%;
+  width: 30%;
+  height: 70%;
+  padding: 25px 0px 0px 16px;
+  margin-left: 40px;
+  margin-right: 20px;
+  gap: 8px;
+}
+.ggslide svg{
+  margin-right: 53px;
+  margin-bottom: 8px;
+}
+.ggslide .item1{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 25px;
+}
+.ggslide .item2{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.list2 .detail1{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.list2 .detail2{
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.list2 .detail2 .dot1{
+  background-color: #00deb4;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+.list2 .detail2 .dot2{
+  background-color: #00deb4;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+.list2 .detail2 .dot3{
+  background-color: #00deb4;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+.list2 .detail2 .dot4{
+  background-color: #e4e4e4;
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+}
+.list2 .detail2 select{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  color: #808080;
+  border-color: #00deb4;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+
+.list2 .detail3{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/* -------------CHECKOUT---------------- */
+
+.checkout{
+  background-color: #fafafa;
+  border: 1px solid #dfdfdf;
+  border-radius: 15px;
+  width: 500px;
+  height: 350px;
+  margin-top: 26px;
+  box-shadow: 0px 9px 19px -2px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-box{
+  width: 85%;
+  height: 85%;
+}
+
+.checkout-box h1{
+  margin-top: 30px;
+}
+
+.sub-total{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.sub-total .subtotalpayment{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #808080;
+}
+.sub-total .price{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #808080;
+}
+
+.coupon{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.coupon input{
+  width: 245px;
+  padding: 8px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  background-color: #fafafa;
+  border-color:#d0d0d0;
+  border-radius: 4px;
+}
+.coupon button{
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  color: #00deb4;
+  border-color: #00deb4;
+  background-color: #fafafa;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.checkout-box hr{
+  opacity: 0.5;
+  margin-top: 30px;
+}
+
+.total{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 30px;
+}
+
+.total .totalpayment{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  margin-top: 4px;
+}
+.total .price{
+margin-top: 15px;
+font-family: "Ubuntu", sans-serif;
+font-weight: 700;
+font-size: 32px;
+color: #00deb4;
+}
+
+.checkout-button{
+display: flex;
+justify-content: center;
+}
+.checkout-button button{
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  background-color: #00deb4;
+  border: none;
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 84px -16px #000000;
+}
